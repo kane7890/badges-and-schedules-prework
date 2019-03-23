@@ -44,5 +44,5 @@ def printer(namelist)
   for i in 0..length_name-1
     puts badgelist[i]
   end
-  
+end
   
