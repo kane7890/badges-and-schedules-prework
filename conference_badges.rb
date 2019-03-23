@@ -19,4 +19,15 @@ def batch_badge_creator(namelist)
   
 end
 
-
+def assignrooms(namelist)
+  
+  roomlist=[]
+  i=0 
+  length_name = namelist.length
+  for i in 0..(length_name-1)
+    name_mesg = badge_maker(namelist[i])
+    badgelist.push(name_mesg)
+  end
+  return (badgelist)
+  
+end
