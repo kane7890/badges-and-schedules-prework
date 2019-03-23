@@ -19,7 +19,7 @@ def batch_badge_creator(namelist)
   
 end
 
-def assignrooms(namelist)
+def assign_rooms(namelist)
   
   roomlist=[]
   
