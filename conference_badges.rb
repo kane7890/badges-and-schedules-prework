@@ -28,7 +28,7 @@ def assign_rooms(namelist)
   for index in 1..(length_name)
     name_mesg = "Hello, #{namelist[index-1]}! You'll be assigned to room #{index}!"
     roomlist.push(name_mesg)
-    puts "Index #{index}, name = #{namelist[index-1]}"
+   # puts "Index #{index}, name = #{namelist[index-1]}"
   end
   return (roomlist)
   
@@ -42,7 +42,7 @@ def printer(namelist)
   roomlist = assign_rooms(namelist)
   
   for i in 0..length_name-1
-    puts badgelist[i]
+    puts roomlist[i]
   end
 end
   
