@@ -25,8 +25,9 @@ def assign_rooms(namelist)
   
   length_name = namelist.length
   for index in 1..(length_name)
-    name_mesg = "Hello, #{namelist[i]}! You'll be assigned to room #{index}!"
+    name_mesg = "Hello, #{namelist[index]}! You'll be assigned to room #{index}!"
     roomlist.push(name_mesg)
+    puts "Name:  #{namelist[index]}"
   end
   return (roomlist)
   
