@@ -22,12 +22,12 @@ end
 def assignrooms(namelist)
   
   roomlist=[]
-  i=0 
+  
   length_name = namelist.length
-  for i in 0..(length_name-1)
-    name_mesg = badge_maker(namelist[i])
-    badgelist.push(name_mesg)
+  for index in 1..(length_name)
+    name_mesg = "Hello, #{namelist[i]}! You'll be assigned to room #{index}"
+    roomlist.push(name_mesg)
   end
-  return (badgelist)
+  return (roomlist)
   
 end
